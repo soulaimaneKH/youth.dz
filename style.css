@@ -1,0 +1,115 @@
+/* l'en tete */
+#headmenu
+{
+    margin-left: 250px; 
+    display: flex;
+    flex-direction: row;
+}
+
+/*les elements de menu de l'en tete*/
+.elementheadmenu
+{
+    color: tomato;
+    border-color: turquoise ;
+    border-style: double;
+    width: 80px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+/*corps de la page*/
+body
+/* le petit logo a gauche de l'en tete*/
+{
+    background-image: url("youth.dz-logo-original.gif");
+    background-attachment: fixed;
+    size: 240px 100px ;
+    background-repeat: no-repeat;
+    background-size: 260px 100px;
+    background-position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: beige; 
+}
+
+
+/*menu navigateur portes de mag*/
+#navigatorleft
+{
+    display: flex;
+    flex-direction: column;  
+    margin-left: 30px;
+}
+
+/*les elements de menu de navigation gauche des portes de mag*/
+.elementnavigatorleft
+{
+    border: indianred double; 
+    opacity: 1;
+    width: 150px;  height: 73px;  
+}
+
+
+/* le milieux de la page */ 
+.body
+{
+    background-image: url("youth.dz-logo-original.gif");
+    background-repeat: no-repeat; background-position: top;
+}
+
+/*menu horisontale des elements corps */
+#horizontalemenu
+{
+    display: flex;
+    flex-direction: row;   
+    position: relative center;
+    height: 300px;
+    border: black 2px solid;
+    
+}
+
+
+.elementhorizontalemenu
+{
+    
+    background-color: lawngreen;
+    align-content: center;
+    width: 200px;  
+}
+
+
+
+
+/*le menu pied de la page web */
+#footermenu
+{
+    display: flex;
+    border:  green double;
+    height: 200px;
+    border-style: solid; opacity: 1; 
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 200px;
+}
+
+/*décoration de tableau*/
+
+table
+{
+
+    border-collapse: collapse;
+    
+    
+}
+
+td
+{
+    border: 3px solid springgreen;
+    width: 130px;
+    padding: 10px;
+
+}
+
+
